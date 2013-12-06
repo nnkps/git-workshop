@@ -1,3 +1,16 @@
+    def loadFont(self, directory):
+        pass
+
+class TextDrawer:
+    def setFont(self, font):
+        pass
+
+    def draw(self, text):
+        pass
+
+
+t = getText()
+
 def getText():
     return 'Git'
 
