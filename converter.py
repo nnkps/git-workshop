@@ -1,3 +1,5 @@
+from font import Font, FontLoader
+
 class TextDrawer:
     def setFont(self, font):
         pass
