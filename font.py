@@ -19,4 +19,10 @@ class FontLoader:
   )(
  (__)
 '''
+        font.letters['T'] = r'''
+ ____
+(_  _)
+  )(
+ (__)
+'''
         return font
