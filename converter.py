@@ -10,21 +10,12 @@ def main():
     drawer.setFont(font)
     drawer.draw(text)
 
-class TextDrawer:
-    def setFont(self, font):
-        pass
-
-    def draw(self, text):
-        pass
-
 def getText():
     if len(sys.argv) != 2:
         print "Bad arguments"
         sys.exit(1)
 
-    return sys.argv[0]
-
-    return sys.argv[0]
+    return sys.argv[1]
 
 if __name__ == '__main__':
     main()
