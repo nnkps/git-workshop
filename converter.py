@@ -1,5 +1,6 @@
 from font import Font, FontLoader
 from textdrawer import TextDrawer
+import sys 
 
 def main():
     text = getText()
@@ -17,7 +18,7 @@ class TextDrawer:
         pass
 
 def getText():
-    return 'Git'
+    return sys.argv[0]
 
 if __name__ == '__main__':
     main()
