@@ -1,5 +1,13 @@
 from font import Font, FontLoader
 
+def main():
+    text = getText()
+    font = FontLoader().loadFont('fancyFont/')
+
+    drawer = TextDrawer()
+    drawer.setFont(font)
+    drawer.draw(text)
+
 class TextDrawer:
     def setFont(self, font):
         pass
@@ -17,9 +25,6 @@ class FontLoader:
     def loadFont(self, directory):
         pass
 
-text = getText()
-font = FontLoader().loadFont('fancyFont/')
+if __name__ == '__main__':
+    main()
 
-drawer = TextDrawer()
-drawer.setFont(font)
-drawer.draw(text)
